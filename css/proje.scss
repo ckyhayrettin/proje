@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  .container {
+    width: 100%;
+    .navbar {
+      position: static;
+      width: 1440px;
+      height: 72px;
+      margin-left: 0px;
+      background-color: white;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+      ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        .pıcture {
+          img {
+            display: block;
+            width: 117px;
+            height: 38px;
+          }
+        }
+        .enqnow {
+          position: static;
+          display: block;
+          padding: 8px;
+          background-color: #1ab0e0;
+          border-radius: 10px;
+          width: 125px;
+          height: 24px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+        .faq {
+          display: block;
+          width: 40px;
+          height: 24px;
+          a {
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    width: 100%;
+  }
+  .faq {
+    display: none;
+  }
+}
